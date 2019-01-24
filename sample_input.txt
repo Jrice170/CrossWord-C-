@@ -1,0 +1,41 @@
+4
+
+5 5
+r g p g p
+k p o f z
+q d x s t
+v y r y j
+e w y t e
+dog
+
+7 7
+u c d z q c y
+k i m i f z e
+k r u c s i p
+h o a w b y w
+n m o b h o y
+s q j e r i x
+w u n t g a x
+bark
+
+11 11
+b r o r t u h q v v q
+k k w e o y l a m h d
+w k f h q y t y j b q
+r h k t m s q l s k q
+g t z a y g i w t v z
+z n o e v m y m p w b
+r v a w n c l q j r o
+b x o k f v w o s o i
+r j y k z x c t n x s
+q g y d v p g g r k c
+k m p a i y u w r e o
+theweatherisnice
+
+4 8
+1 0 1 0 1 1 1 0
+0 0 1 1 1 1 0 1
+1 0 0 1 0 1 1 0
+1 1 0 1 0 1 1 1
+111100
+

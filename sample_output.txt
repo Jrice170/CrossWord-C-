@@ -1,0 +1,12 @@
+Searching for "dog" in matrix 0 yields:
+Start pos:(2, 1) to End pos:(0, 3)
+
+Searching for "bark" in matrix 1 yields:
+Start pos:(4, 3) to End pos:(1, 0)
+
+Searching for "theweatherisnice" in matrix 2 yields:
+The pattern was not found.
+
+Searching for "111100" in matrix 3 yields:
+Start pos:(1, 5) to End pos:(1, 0)
+
