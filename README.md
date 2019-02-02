@@ -43,7 +43,3 @@ These are both specified in the sample_*.txt files provided in your repository.
 ## Due date
 Please see the schedule for all due dates.
 
-## Re-grades (pa01 only!)
-This is the only assignment for which you will receive the opportunity to get points back by fixing your code, with a maximum time for fixing the assignment of 1 week after grades are returned, with %30 off for the resubmission from the original point total.
-If you make a mistake (small or otherwise) in the future, you will loose points based on the autograding system. 
-

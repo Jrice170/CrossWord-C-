@@ -17,11 +17,10 @@ using std::string;
 
 /*
 Writes to a string array containing:
-    * the your (the student author's) Campus Username (at index 0) and 
-    * Student ID# (at index 1).
+    * the your (the student author's) Campus Username
 Takes as input a pre-existing length-2 string array.
 */
-void get_identity(string my_id[]);
+void get_identity(string &my_id);
 
 
 /*
