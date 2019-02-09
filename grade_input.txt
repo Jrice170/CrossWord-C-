@@ -1,0 +1,24 @@
+2
+
+7 7
+u c d z q p y
+k i m i m z e
+k r u u s i p
+h o j w b y w
+n m o b h o y
+s q j e r i x
+w u n t g a x
+jump
+
+9 11
+b r o r t u h q v v q
+k k w e o y l a m h d
+w k f h q y t y j b q
+r h k t m s q l s k q
+g t z a y g i w t v z
+z n o e v m y m p w b
+r v a w n c l q j r o
+b x o k f w o n s o i
+r j y k z x c t n x s
+snow
+

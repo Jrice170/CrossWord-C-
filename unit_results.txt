@@ -1,0 +1,434 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+a.out is a Catch v2.2.3 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Basic searches
+  Word search handles numbers
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:22
+...............................................................................
+
+catch_tests/test_catch.cpp:39: 
+PASSED:
+  CHECK( sol[0] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:40: 
+PASSED:
+  CHECK( sol[1] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:41: 
+PASSED:
+  CHECK( sol[2] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:42: 
+PASSED:
+  CHECK( sol[3] == 2 )
+with expansion:
+  2 == 2
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds diagonal up left
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:53
+...............................................................................
+
+catch_tests/test_catch.cpp:70: 
+PASSED:
+  CHECK( sol[0] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:71: 
+PASSED:
+  CHECK( sol[1] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:72: 
+PASSED:
+  CHECK( sol[2] == row_loc - row_dif )
+with expansion:
+  5 == 5
+
+catch_tests/test_catch.cpp:73: 
+PASSED:
+  CHECK( sol[3] == col_loc - col_dif )
+with expansion:
+  5 == 5
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds words oriented up
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:76
+...............................................................................
+
+catch_tests/test_catch.cpp:93: 
+PASSED:
+  CHECK( sol[0] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:94: 
+PASSED:
+  CHECK( sol[1] == 10 )
+with expansion:
+  10 == 10
+
+catch_tests/test_catch.cpp:95: 
+PASSED:
+  CHECK( sol[2] == row_loc - row_dif )
+with expansion:
+  5 == 5
+
+catch_tests/test_catch.cpp:96: 
+PASSED:
+  CHECK( sol[3] == col_loc - col_dif )
+with expansion:
+  10 == 10
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds diagonal up right
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:99
+...............................................................................
+
+catch_tests/test_catch.cpp:116: 
+PASSED:
+  CHECK( sol[0] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:117: 
+PASSED:
+  CHECK( sol[1] == 19 )
+with expansion:
+  19 == 19
+
+catch_tests/test_catch.cpp:118: 
+PASSED:
+  CHECK( sol[2] == row_loc - row_dif )
+with expansion:
+  5 == 5
+
+catch_tests/test_catch.cpp:119: 
+PASSED:
+  CHECK( sol[3] == col_loc - col_dif )
+with expansion:
+  14 == 14
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds words oriented forwards
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:122
+...............................................................................
+
+catch_tests/test_catch.cpp:139: 
+PASSED:
+  CHECK( sol[0] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:140: 
+PASSED:
+  CHECK( sol[1] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:141: 
+PASSED:
+  CHECK( sol[2] == row_loc - row_dif )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:142: 
+PASSED:
+  CHECK( sol[3] == col_loc - col_dif )
+with expansion:
+  5 == 5
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds words oriented diagonal down right
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:145
+...............................................................................
+
+catch_tests/test_catch.cpp:162: 
+PASSED:
+  CHECK( sol[0] == row_loc - row_dif )
+with expansion:
+  14 == 14
+
+catch_tests/test_catch.cpp:163: 
+PASSED:
+  CHECK( sol[1] == col_loc - col_dif )
+with expansion:
+  14 == 14
+
+catch_tests/test_catch.cpp:164: 
+PASSED:
+  CHECK( sol[2] == 19 )
+with expansion:
+  19 == 19
+
+catch_tests/test_catch.cpp:165: 
+PASSED:
+  CHECK( sol[3] == 19 )
+with expansion:
+  19 == 19
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds words oriented down
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:168
+...............................................................................
+
+catch_tests/test_catch.cpp:185: 
+PASSED:
+  CHECK( sol[0] == row_loc - row_dif )
+with expansion:
+  14 == 14
+
+catch_tests/test_catch.cpp:186: 
+PASSED:
+  CHECK( sol[1] == col_loc - col_dif )
+with expansion:
+  10 == 10
+
+catch_tests/test_catch.cpp:187: 
+PASSED:
+  CHECK( sol[2] == 19 )
+with expansion:
+  19 == 19
+
+catch_tests/test_catch.cpp:188: 
+PASSED:
+  CHECK( sol[3] == 10 )
+with expansion:
+  10 == 10
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds words oriented diagonal down left
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:191
+...............................................................................
+
+catch_tests/test_catch.cpp:208: 
+PASSED:
+  CHECK( sol[0] == row_loc - row_dif )
+with expansion:
+  14 == 14
+
+catch_tests/test_catch.cpp:209: 
+PASSED:
+  CHECK( sol[1] == col_loc - col_dif )
+with expansion:
+  5 == 5
+
+catch_tests/test_catch.cpp:210: 
+PASSED:
+  CHECK( sol[2] == 19 )
+with expansion:
+  19 == 19
+
+catch_tests/test_catch.cpp:211: 
+PASSED:
+  CHECK( sol[3] == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Basic searches
+  Finds words oriented backwards
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:214
+...............................................................................
+
+catch_tests/test_catch.cpp:231: 
+PASSED:
+  CHECK( sol[0] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:232: 
+PASSED:
+  CHECK( sol[1] == 5 )
+with expansion:
+  5 == 5
+
+catch_tests/test_catch.cpp:233: 
+PASSED:
+  CHECK( sol[2] == row_loc - row_dif )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:234: 
+PASSED:
+  CHECK( sol[3] == col_loc - col_dif )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Basic searches
+  Word does not exist
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:237
+...............................................................................
+
+catch_tests/test_catch.cpp:242: 
+PASSED:
+  CHECK( sol[0] == -1 )
+with expansion:
+  -1 == -1
+
+catch_tests/test_catch.cpp:243: 
+PASSED:
+  CHECK( sol[1] == -1 )
+with expansion:
+  -1 == -1
+
+catch_tests/test_catch.cpp:244: 
+PASSED:
+  CHECK( sol[2] == -1 )
+with expansion:
+  -1 == -1
+
+catch_tests/test_catch.cpp:245: 
+PASSED:
+  CHECK( sol[3] == -1 )
+with expansion:
+  -1 == -1
+
+-------------------------------------------------------------------------------
+Basic searches
+  False positive
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:248
+...............................................................................
+
+catch_tests/test_catch.cpp:256: 
+PASSED:
+  CHECK( sol[0] == -1 )
+with expansion:
+  -1 == -1
+
+catch_tests/test_catch.cpp:257: 
+PASSED:
+  CHECK( sol[1] == -1 )
+with expansion:
+  -1 == -1
+
+catch_tests/test_catch.cpp:258: 
+PASSED:
+  CHECK( sol[2] == -1 )
+with expansion:
+  -1 == -1
+
+catch_tests/test_catch.cpp:259: 
+PASSED:
+  CHECK( sol[3] == -1 )
+with expansion:
+  -1 == -1
+
+-------------------------------------------------------------------------------
+Basic searches
+  Big matrix
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:268
+...............................................................................
+
+catch_tests/test_catch.cpp:298: 
+PASSED:
+  CHECK( sol[0] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:299: 
+PASSED:
+  CHECK( sol[1] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:300: 
+PASSED:
+  CHECK( sol[2] == 0 )
+with expansion:
+  0 == 0
+
+catch_tests/test_catch.cpp:301: 
+PASSED:
+  CHECK( sol[3] == 6 )
+with expansion:
+  6 == 6
+
+-------------------------------------------------------------------------------
+Basic searches
+  Build matrix
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:310
+...............................................................................
+
+catch_tests/test_catch.cpp:317: 
+PASSED:
+  CHECK_NOTHROW( build_grid[898][898] = 'c' )
+
+catch_tests/test_catch.cpp:318: 
+PASSED:
+  CHECK_NOTHROW( build_grid[898][898] = 'c' )
+
+catch_tests/test_catch.cpp:319: 
+PASSED:
+  CHECK_NOTHROW( build_grid[898][898] = 'c' )
+
+catch_tests/test_catch.cpp:320: 
+PASSED:
+  CHECK_NOTHROW( build_grid[898][898] = 'c' )
+
+-------------------------------------------------------------------------------
+Basic searches
+  Fill matrix
+-------------------------------------------------------------------------------
+catch_tests/test_catch.cpp:329
+...............................................................................
+
+catch_tests/test_catch.cpp:344: 
+PASSED:
+  CHECK( fill_grid[0][3] == 'r' )
+with expansion:
+  'r' == 'r'
+
+catch_tests/test_catch.cpp:345: 
+PASSED:
+  CHECK( fill_grid[8][6] == 'c' )
+with expansion:
+  'c' == 'c'
+
+catch_tests/test_catch.cpp:346: 
+PASSED:
+  CHECK( fill_grid[0][3] == 'r' )
+with expansion:
+  'r' == 'r'
+
+catch_tests/test_catch.cpp:347: 
+PASSED:
+  CHECK( fill_grid[8][6] == 'c' )
+with expansion:
+  'c' == 'c'
+
+===============================================================================
+All tests passed (56 assertions in 1 test case)
+

@@ -17,7 +17,8 @@ using std::string;
 
 /*
 Writes to a string array containing:
-    * the your (the student author's) Campus Username
+    * the your (the student author's) Campus Username (at index 0) and 
+    * Student ID# (at index 1).
 Takes as input a pre-existing length-2 string array.
 */
 void get_identity(string &my_id);
