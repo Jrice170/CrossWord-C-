@@ -10,6 +10,7 @@ If you change it and your whole program does not run as a result, you will recei
 #include <iostream>
 #include <string> // optional with modern GCC installs
 using std::cout;
+using std::cerr;
 using std::endl;
 using std::cin;
 using std::string;

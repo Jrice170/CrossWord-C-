@@ -1,2 +1,2 @@
 Username (not for points),Tests passed (out of 56),Tests passed,Bytes definitely lost (memory leak) (0 is perfect),"Username accurate (0 good, 1 bad)",Main diff (0 is perfect),Time (smaller better)
-jmr3by,56,All tests passed (56 assertions in 1 test case),0,0,0,0.003603325445016026
+jmr3by,56,All tests passed (56 assertions in 1 test case),0,0,0,0.002660388865

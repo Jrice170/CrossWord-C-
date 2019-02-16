@@ -240,7 +240,7 @@ else:
 students_to_try = os.listdir(parent_dir_of_student_repos)
 
 # For debugging a single or couple students, uncomment this line:
-#students_to_try = ['solution']
+#students_to_try = ['adcmyb']
 
 headers = ['Username (not for points)'] + ['Tests passed (out of 56)'] + ['Tests passed'] + ['Bytes definitely lost (memory leak) (0 is perfect)'] + ['Username accurate (0 good, 1 bad)'] + ['Main diff (0 is perfect)'] + ['Time (smaller better)']
 
@@ -297,6 +297,8 @@ df_reloaded['mean_time'] = np.where(df_reloaded['Passes'] == 14, df_reloaded['me
 df_reloaded['norm_time'] = (df_reloaded['mean_time'] - df_reloaded['mean_time'].min()) / (df_reloaded['mean_time'].max() - df_reloaded['mean_time'].min())
 df_reloaded['Bonus'] = 5 - (5 * df_reloaded['norm_time'])
 df_reloaded['Bonus'] = df_reloaded['Bonus'].fillna(0)
+
+# TODO add name test points?
 
 df_reloaded['Grand_avg'] = df_reloaded['mem_leak_pts'] + ((df_reloaded['Passes'] / 14) * 75) + df_reloaded['Bonus'] + df_reloaded['Main_points']
 
